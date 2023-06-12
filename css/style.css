@@ -1,7 +1,7 @@
-body {
-    background-color: white;
-    width: 100%;
+html, body {
     height: 100%;
+    padding: 0;
+    margin: 0 auto !important;
 }
 .navbar {
     width: 100%;
@@ -28,6 +28,7 @@ body {
     align-items: center;
     justify-content: space-evenly;
     width: 80%;
+    list-style: none;
 }
 .navbar-menu ul>li a{
     padding: 0 1rem;
@@ -36,10 +37,10 @@ body {
     align-items: center;
     justify-content: center;
     color: #bbb;
-    font-family: "Beaufort for LOL", "Times New Roman";
+    font-family: ""Beaufort for LOL", "Times New Roman";"
     font-size: 15px;
     font-weight: 700;
-    text-transform: uppercase;
+    text-transform: capitalize;
     text-decoration: none;
 }
 .logo{
@@ -87,14 +88,12 @@ body {
 .name{
     color: white;
     font-size: 24px;
-    font-style: italic;
-    font-weight: 900;
+    font-weight: 400;
     text-transform: uppercase;
     position: absolute;
     bottom: 2%;
 }
 .id{
-    padding: 20px;
     color: white;
     font-weight: 600;
 }
